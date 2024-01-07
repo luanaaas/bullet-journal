@@ -1,0 +1,36 @@
+{
+  "weekdays" : [ {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  } ],
+  "overview" : {
+    "totalEvents" : 0,
+    "totalTasks" : 0
+  },
+  "buttonInfo" : {
+    "category" : [ "No Category" ],
+    "maxTasks" : 4,
+    "maxEvents" : 10
+  },
+  "quotesNotes" : {
+    "quotesNotes" : ""
+  }
+}

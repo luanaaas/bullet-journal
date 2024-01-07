@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="300.0" prefWidth="250.0">
+      <children>
+         <VBox alignment="CENTER" prefHeight="260.0" prefWidth="250.0" spacing="5.0">
+            <children>
+               <HBox prefHeight="10.0" prefWidth="200.0">
+                  <children>
+                     <Button mnemonicParsing="false" text="X" fx:id="xxEvent" />
+                  </children>
+               </HBox>
+               <Label alignment="CENTER" contentDisplay="TOP" prefHeight="30.0" prefWidth="236.0" text="Create New Event" textAlignment="CENTER">
+                  <padding>
+                     <Insets top="10.0" />
+                  </padding>
+                  <font>
+                     <Font name="Avenir Next Bold" size="13.0" />
+                  </font>
+               </Label>
+               <HBox prefHeight="225.0" prefWidth="250.0">
+                  <children>
+                     <VBox alignment="TOP_CENTER" prefHeight="191.0" prefWidth="116.0" spacing="12.0">
+                        <children>
+                           <Label text="Name">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Description">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Day of week">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Start time">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Duration">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Category">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                        </children>
+                        <HBox.margin>
+                           <Insets top="10.0" />
+                        </HBox.margin>
+                     </VBox>
+                     <VBox prefHeight="191.0" prefWidth="116.0" spacing="5.0">
+                        <children>
+                           <TextField fx:id="eventName" prefHeight="8.0" prefWidth="116.0" />
+                           <TextField fx:id="eventDescription" prefHeight="8.0" prefWidth="116.0" />
+                           <SplitMenuButton fx:id="daysEvent" mnemonicParsing="false" text="Select...">
+                              <items>
+                                 <MenuItem fx:id="sundayEvent" text="SUNDAY" />
+                                 <MenuItem fx:id="mondayEvent" text="MONDAY" />
+                                 <MenuItem fx:id="tuesdayEvent" text="TUESDAY" />
+                                 <MenuItem fx:id="wednesdayEvent" text="WEDNESDAY" />
+                                 <MenuItem fx:id="thursdayEvent" text="THURSDAY" />
+                                 <MenuItem fx:id="fridayEvent" text="FRIDAY" />
+                                 <MenuItem fx:id="saturdayEvent" text="SATURDAY" />
+                              </items>
+                           </SplitMenuButton>
+                           <TextField fx:id="eventStartTime">
+                              <VBox.margin>
+                                 <Insets />
+                              </VBox.margin>
+                           </TextField>
+                           <TextField fx:id="eventDuration" />
+                           <SplitMenuButton fx:id="allCategoriesEvent" mnemonicParsing="false" text="Select...">
+                           <items>
+                              <MenuItem fx:id="noCategoryEvent" text="No Category" />
+                           </items>
+                           </SplitMenuButton>
+                        </children>
+                        <HBox.margin>
+                           <Insets right="10.0" top="6.0" />
+                        </HBox.margin>
+                     </VBox>
+                  </children>
+               </HBox>
+               <HBox alignment="CENTER" prefHeight="35.0" prefWidth="200.0" />
+            </children>
+         </VBox>
+         <Button fx:id="doneEvent" layoutX="96.0" layoutY="260.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" text="Done" />
+      </children></AnchorPane>
+</Scene>

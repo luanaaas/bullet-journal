@@ -1,0 +1,15 @@
+{
+  "weekdays": [],
+  "overview": {
+    "totalEvents": 0,
+    "totalTasks": 0
+  },
+  "buttonInfo": {
+    "categories": [],
+    "maxTasks": 0,
+    "maxEvents": 0
+  },
+  "quotesNotes": {
+    "quotesNotes": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "weekdays" : [ {
+    "tasks" : [ {
+      "name" : "Another one!",
+      "description" : "fire journal fr",
+      "day" : "SUNDAY",
+      "category" : "Work",
+      "completed" : true
+    } ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ {
+      "name" : "Task 1",
+      "description" : "Description of Task 1",
+      "day" : "MONDAY",
+      "category" : "Work",
+      "completed" : true
+    }, {
+      "name" : "Task with a link!",
+      "description" : "https://papertoilet.com/",
+      "day" : "MONDAY",
+      "category" : "Personal",
+      "completed" : false
+    } ],
+    "events" : [ {
+      "name" : "Event 1",
+      "description" : "Description of Event 1",
+      "day" : "MONDAY",
+      "category" : "Meeting",
+      "start-time" : "10:00",
+      "duration" : 0
+    }, {
+      "name" : "Event 2",
+      "description" : "Description of Event 2",
+      "day" : "MONDAY",
+      "category" : "Social",
+      "start-time" : "14:00",
+      "duration" : 0
+    } ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ {
+      "name" : "Test task fr!",
+      "description" : "this working?",
+      "day" : "FRIDAY",
+      "category" : "No Category",
+      "completed" : false
+    } ],
+    "events" : [ ]
+  }, {
+    "tasks" : [ ],
+    "events" : [ ]
+  } ],
+  "overview" : {
+    "totalEvents" : 2,
+    "totalTasks" : 4
+  },
+  "buttonInfo" : {
+    "category" : [ ],
+    "maxTasks" : 4,
+    "maxEvents" : 5
+  },
+  "quotesNotes" : {
+    "quotesNotes" : "This is a sample quotes n notes."
+  }
+}

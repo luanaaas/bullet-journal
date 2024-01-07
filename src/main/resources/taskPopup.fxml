@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="325.0" prefWidth="275.0">
+      <children>
+         <VBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="275.0">
+            <children>
+               <HBox prefHeight="19.0" prefWidth="250.0">
+                  <children>
+                     <Button mnemonicParsing="false" text="X" fx:id="xxTask" />
+                  </children>
+               </HBox>
+               <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="0.0" prefWidth="236.0" text="Create New Task" textAlignment="CENTER">
+                  <padding>
+                     <Insets top="10.0" />
+                  </padding>
+                  <font>
+                     <Font name="Avenir Next Bold" size="13.0" />
+                  </font>
+                  <VBox.margin>
+                     <Insets top="20.0" />
+                  </VBox.margin>
+               </Label>
+               <HBox alignment="TOP_CENTER" prefHeight="190.0" prefWidth="275.0" spacing="3.0">
+                  <children>
+                     <VBox alignment="TOP_CENTER" prefHeight="225.0" prefWidth="126.0" spacing="10.0">
+                        <children>
+                           <Label prefHeight="10.0" prefWidth="36.0" text="Name">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Description">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Day of week">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Completion status">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                           <Label text="Category">
+                              <font>
+                                 <Font name="Avenir Book" size="13.0" />
+                              </font>
+                           </Label>
+                        </children>
+                        <HBox.margin>
+                           <Insets top="30.0" />
+                        </HBox.margin>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                     </VBox>
+                     <VBox alignment="TOP_CENTER" prefHeight="217.0" prefWidth="116.0" spacing="5.0">
+                        <children>
+                           <TextField fx:id="taskName" prefHeight="21.0" prefWidth="116.0" />
+                           <TextField fx:id="taskDescription" prefHeight="8.0" prefWidth="116.0" />
+                           <SplitMenuButton fx:id="daysTask" mnemonicParsing="false" text="Select...">
+                             <items>
+                                   <MenuItem fx:id="sundayTask" text="SUNDAY" />
+                                   <MenuItem fx:id="mondayTask" text="MONDAY" />
+                                   <MenuItem fx:id="tuesdayTask" text="TUESDAY" />
+                                 <MenuItem fx:id="wednesdayTask" text="WEDNESDAY" />
+                                 <MenuItem fx:id="thursdayTask" text="THURSDAY" />
+                                 <MenuItem fx:id="fridayTask" text="FRIDAY" />
+                                 <MenuItem fx:id="saturdayTask" text="SATURDAY" />
+                             </items>
+                           </SplitMenuButton>
+                           <SplitMenuButton fx:id="completed" mnemonicParsing="false" text="Select...">
+                             <items>
+                                   <MenuItem fx:id="isCompleted" text="Completed" />
+                                   <MenuItem fx:id="notCompleted" text="Not Completed" />
+                             </items>
+                           </SplitMenuButton>
+                           <SplitMenuButton fx:id="allCategoriesTask" mnemonicParsing="false" text="Select...">
+                              <items>
+                                 <MenuItem fx:id="noCategoryTask" text="No Category" />
+                              </items>
+                           </SplitMenuButton>
+                        </children>
+                        <HBox.margin>
+                           <Insets top="20.0" />
+                        </HBox.margin>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                     </VBox>
+                  </children>
+               </HBox>
+               <Button fx:id="doneTask" mnemonicParsing="false" text="Done" />
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
