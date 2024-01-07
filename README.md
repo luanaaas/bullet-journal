@@ -1,5 +1,5 @@
 # Program Pitch
-Introducing **"YourJournal"**, a comprehensive productivity tool designed to help you stay organized and maximize your efficiency. With [Program Name], you can:
+Introducing a comprehensive productivity tool designed to help you stay organized and maximize your efficiency. You can:
 
 * Create events with descriptions, time, day, and duration, ensuring that you never miss an important appointment.
 * Manage tasks effortlessly, keeping track of your to-do list for each day.
@@ -10,7 +10,7 @@ Introducing **"YourJournal"**, a comprehensive productivity tool designed to hel
 * Monitor your daily progress through interactive progress bars, providing a visual representation of task completion.
 * Open up an existing .bujo file, upload a .bujo templete, or start an empty file
 
-Experience the convenience and efficiency of **"YourJournal"**, and take control of your schedule like never before. Boost your productivity and achieve your goals effortlessly with this all-in-one productivity solution!
+Experience the convenience and efficiency of this bullet journal, and take control of your schedule like never before. Boost your productivity and achieve your goals effortlessly with this all-in-one productivity solution!
 
 ## How SOLID principles are applied in our project!:
 
